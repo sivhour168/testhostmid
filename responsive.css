@@ -1,0 +1,282 @@
+/* teblet */
+@media(max-width: 1279px) and (min-width: 481px){
+     .fixed{
+        position: fixed;
+        right: -10px;
+        bottom: 50px;
+    }
+    .container{
+        .cardbox{
+        flex-wrap: wrap;
+        margin-top: 10px;
+            /* card */
+            .card{
+            width: 45%;
+            margin-top: 20px;
+            }
+        }
+
+        .body{
+            .picbox{
+                img{
+                    width: 400px;
+                }
+
+            }
+            .conbox{
+                /* width: 30%; */
+                margin-left: 50px;
+                /* background-color: aqua; */
+                .icon{
+                    /* background-color: yellowgreen; */
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        margin-left: 30px;
+                        margin-top: 20px;
+                    }
+                }
+        
+            
+            }
+        }
+       
+
+       .box1{
+        flex-direction: column;
+        .logo{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: rebeccapurple; */
+            img{
+                width: 200px;
+                height: 150px;  
+            }
+        }
+        .menu{
+            width: 100%;
+            .boxmenu{
+            ul{
+                li{
+                    a{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+       }
+       
+
+        .cover{
+        height: 1200px;
+        flex-wrap: wrap;
+            .other{
+                width: 40%;
+                height: 500px;
+                margin-top: 10px;           
+            }
+            .other:hover{
+               width: 45%;
+               height: 550px; 
+           }
+        }
+
+        .brandbox{
+            .boxsmall{
+                flex-wrap: wrap;
+                .carcard{
+                width: 40%;
+                margin-top: 20px;
+                }
+            }
+        }
+    }
+    .mg{
+        width: 100%;
+        height: 50px;
+        marquee{
+        font-size: 20px;
+        }
+    }
+
+}
+/* mobile */
+@media(max-width:480px) {
+    .fixed{
+        position: fixed;
+        right: -10px;
+        bottom: 50px;
+        img{
+            width: 60px;
+        }
+    }
+    .container{
+
+
+        .banner {
+  position: relative;
+  width: 90%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: auto;
+}
+         .body{
+            .picbox{
+                height: 400px;
+                img{
+                    width: 200px;
+                }
+
+            }
+            .conbox{
+                height: 400px;
+                /* width: 30%; */
+                margin-left: 50px;
+                /* background-color: aqua; */
+                .icon{
+                    margin-top: 5px;
+                    /* background-color: yellowgreen; */
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        margin-left: 10px;
+                        margin-top: 20px;
+                    }
+                    p{
+                        margin-left: 20px;
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                }
+        
+            
+            }
+        }
+
+
+
+        .topbox{
+            .call{
+                font-size: 18px;
+                i{
+                    font-size: 18px;
+                }
+            }
+            .country{
+                img{
+                    width: 30px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+        
+
+       .box1{
+        flex-direction: column;
+        .logo{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: rebeccapurple; */
+            img{
+                width: 150px;
+                height: 100px;  
+            }
+        }
+        .menu{
+            width: 100%;
+            .boxmenu{
+                width: 100%;
+                height: 30px;
+            
+            ul{
+                padding-top:0px ;
+                li{
+                    a{
+                        font-size: 10px;
+                       
+                    }
+                }
+            }
+        }
+    }
+       }
+       
+
+        .cover{
+            height: 500px;
+            flex-wrap: wrap;
+            margin-top: 0px;
+            .other{
+                width: 40%;
+                height: 200px;
+                margin-top: 2px; 
+                border-radius: 30px;
+                img{
+                    border-radius: 30px;          
+                }          
+            }
+            .other:hover{
+               width: 45%;
+               height: 250px; 
+           }
+        }
+
+        .brandbox{
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+            .boxsmall{
+                margin-top: 5px;
+                flex-wrap: wrap;
+                .carcard{
+                width: 40%;
+                height: 200px;
+                margin-top: 15px;
+                p{
+                    font-size:15px ;
+                }
+                .logobrand{
+                    margin-bottom: 1px;
+                    img{
+                        width: 100px;
+                    }
+                }
+                }
+            }
+        }
+        
+       
+        .footer{
+            height: 70px;
+        }
+        .cardbox{
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card{
+                width: 90%;
+                margin-top: 15px;
+            }
+        }
+    }
+     .mg{
+        width: 100%;
+        height: 30px;
+        marquee{
+        font-size: 15px;
+        }
+    }
+}
